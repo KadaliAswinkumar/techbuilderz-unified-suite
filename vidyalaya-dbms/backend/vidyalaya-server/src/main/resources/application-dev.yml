@@ -1,0 +1,9 @@
+# Activate with: mvn spring-boot:run -Dspring-boot.run.profiles=dev
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+vidyalaya:
+  dev:
+    open-api: true

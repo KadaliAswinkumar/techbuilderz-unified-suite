@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: vidyalaya
+      POSTGRES_PASSWORD: vidyalaya
+      POSTGRES_DB: vidyalaya_master
+    # Host 5433 avoids conflict when another Postgres already uses 5432 on your machine
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vidyalaya -d vidyalaya_master"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:

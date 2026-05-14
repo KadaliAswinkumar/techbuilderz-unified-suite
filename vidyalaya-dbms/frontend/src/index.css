@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: 239 68% 55%;
+  --brand-foreground: 0 0% 100%;
+  --sidebar: 0 0% 100%;
+  --accent: 16 90% 60%;
+}
+
+.dark {
+  --brand: 239 72% 62%;
+  --brand-foreground: 0 0% 100%;
+  --sidebar: 222 47% 12%;
+  --accent: 24 95% 58%;
+}
+
+@layer components {
+  .surface-card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:shadow-none;
+  }
+  .surface-muted {
+    @apply rounded-xl border border-slate-100 bg-slate-50/60 dark:border-slate-700 dark:bg-slate-800/50;
+  }
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+}

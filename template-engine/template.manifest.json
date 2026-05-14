@@ -1,0 +1,9 @@
+{
+  "name": "schools-template-engine",
+  "version": "0.1.0",
+  "releaseDate": "2026-05-12",
+  "tiers": ["basic", "pro", "premium"],
+  "variants": ["traditional", "modern", "premium"],
+  "defaultVariant": "modern",
+  "defaultTier": "basic"
+}

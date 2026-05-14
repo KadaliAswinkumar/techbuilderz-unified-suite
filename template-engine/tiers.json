@@ -1,0 +1,32 @@
+{
+  "basic": {
+    "name": "Basic",
+    "description": "Static site with school metadata and annual support.",
+    "features": [
+      "Static responsive website",
+      "5 core pages",
+      "School profile setup",
+      "Annual support"
+    ]
+  },
+  "pro": {
+    "name": "Pro",
+    "description": "Basic plus SEO setup and monthly SEO operations.",
+    "features": [
+      "Everything in Basic",
+      "On-page SEO setup",
+      "Search Console and analytics setup",
+      "Monthly SEO reporting"
+    ]
+  },
+  "premium": {
+    "name": "Premium",
+    "description": "Pro plus Vidyalaya DBMS onboarding and marketing support.",
+    "features": [
+      "Everything in Pro",
+      "Vidyalaya onboarding",
+      "Data migration support",
+      "Poster and brochure starter creatives"
+    ]
+  }
+}

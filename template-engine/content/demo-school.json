@@ -1,0 +1,16 @@
+{
+  "schoolName": "Greenfield Academy",
+  "city": "Chennai",
+  "domain": "www.greenfieldacademy.edu",
+  "contactEmail": "admissions@greenfieldacademy.edu",
+  "contactPhone": "+91 90000 00000",
+  "principalMessage": "We nurture knowledge, character, and confidence for tomorrow's leaders.",
+  "aboutSummary": "Greenfield Academy delivers strong academics, sports, and values-based education for K-12 learners.",
+  "programs": [
+    "Primary School",
+    "Middle School",
+    "Senior Secondary",
+    "STEM Club"
+  ],
+  "ctaText": "Book an Admission Counselling Call"
+}

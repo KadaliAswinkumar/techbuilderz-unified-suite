@@ -1,0 +1,23 @@
+.DS_Store
+
+# Local env files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Node artifacts
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+
+# Java / Maven artifacts
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# IDE artifacts
+**/.idea/
+**/.vscode/settings.json
+
+# Logs
+**/*.log

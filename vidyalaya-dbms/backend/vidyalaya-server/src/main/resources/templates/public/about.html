@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${page != null && page.title != null ? page.title : 'About'}">About</title>
+</head>
+<body>
+<main th:utext="${page != null && page.contentHtml != null ? page.contentHtml : '<p>About our school.</p>'}"></main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head><meta charset="UTF-8"/><title>Contact</title></head>
+<body>
+<main th:utext="${page != null && page.contentHtml != null ? page.contentHtml : '<p>Contact the school office.</p>'}"></main>
+</body>
+</html>

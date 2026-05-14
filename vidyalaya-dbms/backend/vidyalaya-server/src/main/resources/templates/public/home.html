@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${page != null && page.title != null ? page.title : 'School'}">School</title>
+    <meta th:if="${page != null && page.metaDescription != null}" name="description" th:content="${page.metaDescription}"/>
+</head>
+<body>
+<header><h1 th:text="${page != null && page.title != null ? page.title : 'Welcome'}">Welcome</h1></header>
+<main th:utext="${page != null && page.contentHtml != null ? page.contentHtml : '<p>Welcome to our school.</p>'}">
+</main>
+</body>
+</html>

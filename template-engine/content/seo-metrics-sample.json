@@ -1,0 +1,24 @@
+{
+  "institution": "Greenfield Academy",
+  "month": "2026-05",
+  "impressions": 18240,
+  "clicks": 2120,
+  "ctr": "11.63%",
+  "avgPosition": 8.4,
+  "organicLeads": 56,
+  "topPages": [
+    "/admissions",
+    "/academics",
+    "/contact"
+  ],
+  "highImpactKeywords": [
+    "best school in chennai",
+    "cbse admissions chennai",
+    "school with stem programs"
+  ],
+  "nextMonthActions": [
+    "Publish two admissions-focused pages",
+    "Add FAQ schema for fee and transport queries",
+    "Improve internal linking from homepage to admissions"
+  ]
+}

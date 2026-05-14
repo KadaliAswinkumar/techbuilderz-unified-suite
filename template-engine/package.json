@@ -1,0 +1,13 @@
+{
+  "name": "schools-template-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Template-first website system for school, college, and university clients.",
+  "scripts": {
+    "build:site": "node scripts/generate-site.mjs --variant variants/modern.json --content content/demo-school.json --out dist",
+    "build:all": "node scripts/build-all-variants.mjs",
+    "seo:report": "node scripts/create-seo-report.mjs --school content/demo-school.json --out docs/seo/monthly-report-sample.md",
+    "agent:generate": "node scripts/agent-generate.mjs --intake content/intake-sample.json --out dist/agent-output"
+  }
+}

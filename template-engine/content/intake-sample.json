@@ -1,0 +1,13 @@
+{
+  "schoolName": "Riverdale Public School",
+  "city": "Bengaluru",
+  "domain": "www.riverdalepublicschool.edu",
+  "plan": "pro",
+  "variant": "modern",
+  "contactEmail": "info@riverdalepublicschool.edu",
+  "contactPhone": "+91 98888 77777",
+  "principalMessage": "A student-first campus with a balanced focus on academics, arts, and athletics.",
+  "aboutSummary": "Riverdale Public School empowers students with project-based learning and community engagement.",
+  "programs": ["Primary", "Secondary", "Science Stream", "Commerce Stream"],
+  "ctaText": "Request Admission Information"
+}
