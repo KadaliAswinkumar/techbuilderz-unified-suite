@@ -2047,6 +2047,61 @@ layout consistency pass
 }
 
 @media (max-width: 991px) {
+  .header-area {
+    top: 12px;
+    height: auto;
+    padding: 0 12px;
+  }
+
+  .header-area .main-nav {
+    min-height: 68px;
+    border-radius: 22px;
+    overflow: visible;
+  }
+
+  .header-area .main-nav .logo.logo-text {
+    margin: 10px 0 10px 14px !important;
+    height: 46px;
+    font-size: 16px;
+    padding: 0 12px;
+  }
+
+  .header-area .main-nav .menu-trigger {
+    right: 20px;
+    top: 14px;
+  }
+
+  .header-area .main-nav .nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    margin-top: 0 !important;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 14px 28px rgba(45, 38, 84, 0.14);
+    overflow: hidden;
+  }
+
+  .header-area .main-nav .nav li:first-child {
+    border-top: none;
+  }
+
+  .header-area .main-nav .nav li a {
+    text-align: left;
+    padding: 0 18px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+  }
+
+  .header-area.header-sticky .nav {
+    margin-top: 0 !important;
+  }
+
+  .contact-actions .main-button {
+    min-width: 200px;
+  }
+
   .section {
     padding-top: 76px;
     padding-bottom: 76px;
